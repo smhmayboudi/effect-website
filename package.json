@@ -25,7 +25,10 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
+    "@effect/opentelemetry": "^0.34.29",
     "@effect/schema": "^0.68.14",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.52.1",
+    "@opentelemetry/sdk-trace-base": "^1.25.1",
     "effect": "^3.4.5"
   },
   "engines": {
